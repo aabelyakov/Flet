@@ -9,7 +9,7 @@ def main(page: ft.Page):
 
     new_task = ft.TextField(hint_text="Что нужно сделать?", expand=True)
     tasks_view = ft.Column()
-    view=ft.Column(
+    view = ft.Column(
         width=600,
         controls=[
             ft.Row(
@@ -25,5 +25,5 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.add(view)
 
-ft.app(target=main)
 
+ft.app(target=main)
